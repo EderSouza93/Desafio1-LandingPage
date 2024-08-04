@@ -12,12 +12,30 @@
 
 #text-header{
     margin: 15px 0px 70px 62px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
 }
 
 header{
     background-color: #303030;
     padding: 40px;
+}
 
+section{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.section-element{
+    margin: 50px 0px 50px 175px;
+}
+
+.title-number{
+    margin-bottom: 5px;
+}
+
+.text-section{
+    margin-top: 0px;
 }
