@@ -4,10 +4,10 @@
 }
 
 #title-header{
-     margin-left: 62px;
-     margin-top: 80px;
-     font-size: 40px;
-     color: white;   
+    margin-left: 62px;
+    margin-top: 80px;
+    font-size: 40px;
+    color: white;   
 }
 
 #text-header{
@@ -26,16 +26,28 @@ section{
     display: grid;
     grid-auto-flow: column;
     columns: auto;
+    justify-content: space-evenly;
 }
 
 .section-element{
-    margin: 50px 0px 50px 175px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.title-number{
-    margin-bottom: 5px;
+main{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-evenly;
 }
 
-.text-section{
-    margin-top: 0px;
+#text-main{
+    margin-top: 250px;
+}
+
+#image-main{
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
 }
